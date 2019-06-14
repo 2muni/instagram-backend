@@ -7,14 +7,16 @@ Instargram clone with Express + Prisma + React and React Native
 - [x] Create account
 - [x] Request Secret
 - [x] Confirm Secret (Login)
-- [ ] Like / Unlike a phto
-- [ ] Comment on a photo
-- [ ] Search by user
-- [ ] Search by location
-- [ ] See user profile
-- [ ] Follow / Unfollow user
-- [ ] See the full photo
-- [ ] Edit my profile
+- [x] Like / Unlike a phto
+- [x] Comment on a photo
+- [x] Search by user
+- [x] Search by location
+- [x] Follow User
+- [x] Unfollow User
+- [x] Edit my profile
+- [x] See user profile
+- [x] See my profile
+- [x] See the full photo
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
