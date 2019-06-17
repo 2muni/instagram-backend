@@ -22,5 +22,5 @@ Instargram clone with Express + Prisma + React and React Native
 - [x] See the feed
 - [x] Send private Message
 - [x] See Rooms
-- [ ] See Room
-- [ ] Receive Message (Realtime)
+- [x] See Room
+- [x] Receive Message (Realtime)
