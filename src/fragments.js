@@ -34,27 +34,25 @@ export const FULL_POST_FRAGMENT = `
   }
 `;
 
+const MESSAGE_FRAGMENT = `
+  id
+  text
+  to {
+    ${USER_FRAGMENT}
+  }
+  from{
+    ${USER_FRAGMENT}
+  }
+`;
+
 export const ROOM_FRAGMENT = `
   fragment RoomParts on Room {
     id
     participants {
       ${USER_FRAGMENT}
     }
-    message{
+    messages{
       ${MESSAGE_FRAGMENT}
-    }
-  }
-`;
-
-export const MESSAGE_FRAGMENT = `
-  fragment MessageParts on Message {
-    id
-    text
-    to {
-      ${USER_FRAGMENT}
-    }
-    from{
-      ${USER_FRAGMENT}
     }
   }
 `;
