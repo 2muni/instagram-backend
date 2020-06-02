@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.0.0",
-    "graphql-tools": "^4.0.4",
+    "graphql-tools": "^6.0.6",
     "graphql-yoga": "^1.17.4",
     "jsonwebtoken": "^8.5.1",
     "merge-graphql-schemas": "^1.5.8",
